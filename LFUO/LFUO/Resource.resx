@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>добавить</value>
+  </data>
+  <data name="AddEn" xml:space="preserve">
+    <value>add</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>LFUO</value>
+  </data>
+  <data name="ButCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="ButCancelEn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ButOk" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="ButOkEn" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>удалить</value>
+  </data>
+  <data name="DeleteEn" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>изменить</value>
+  </data>
+  <data name="EditEn" xml:space="preserve">
+    <value>edit</value>
+  </data>
+  <data name="LabAlwir" xml:space="preserve">
+    <value>от Алвира</value>
+  </data>
+  <data name="LabAlwirEn" xml:space="preserve">
+    <value>by Alwir</value>
+  </data>
+  <data name="LabClient" xml:space="preserve">
+    <value>клиент шарда</value>
+  </data>
+  <data name="LabClientEn" xml:space="preserve">
+    <value>shards client</value>
+  </data>
+  <data name="LabHandler" xml:space="preserve">
+    <value>ЛАУНЧЕР ДЛЯ УО</value>
+  </data>
+  <data name="LabHandlerEn" xml:space="preserve">
+    <value>LAUNCHER FOR UO</value>
+  </data>
+  <data name="LabName" xml:space="preserve">
+    <value>имя шарда</value>
+  </data>
+  <data name="LabNameEn" xml:space="preserve">
+    <value>shards name</value>
+  </data>
+  <data name="LabPort" xml:space="preserve">
+    <value>порт шарда</value>
+  </data>
+  <data name="LabPortEn" xml:space="preserve">
+    <value>shards port</value>
+  </data>
+  <data name="LabUrl" xml:space="preserve">
+    <value>адрес шарда</value>
+  </data>
+  <data name="LabUrlEn" xml:space="preserve">
+    <value>shards url</value>
+  </data>
+  <data name="MessEmptyField" xml:space="preserve">
+    <value>Одно из полей пустое!</value>
+  </data>
+  <data name="MessEmptyFieldEn" xml:space="preserve">
+    <value>One of field is empty!</value>
+  </data>
+  <data name="MessError" xml:space="preserve">
+    <value>ОШИБКА</value>
+  </data>
+  <data name="MessErrorEn" xml:space="preserve">
+    <value>ERROR</value>
+  </data>
+  <data name="MessNoClient" xml:space="preserve">
+    <value>Не удалось запустить клиент!</value>
+  </data>
+  <data name="MessNoClientEn" xml:space="preserve">
+    <value>I can't start the client!</value>
+  </data>
+  <data name="MessNoSelected" xml:space="preserve">
+    <value>Вы не выбрали шард!</value>
+  </data>
+  <data name="MessNoSelectedEn" xml:space="preserve">
+    <value>You didn't choose шард</value>
+  </data>
+  <data name="MessNoValid" xml:space="preserve">
+    <value>Вы не правильно заполнили поля!</value>
+  </data>
+  <data name="MessNoValidEn" xml:space="preserve">
+    <value>You not correctly filled fields!</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>В ПУТЬ!</value>
+  </data>
+  <data name="StartEn" xml:space="preserve">
+    <value>GO GO</value>
+  </data>
+  <data name="TTAdd" xml:space="preserve">
+    <value>Добавить новый шард</value>
+  </data>
+  <data name="TTAddEn" xml:space="preserve">
+    <value>Add new shard</value>
+  </data>
+  <data name="TTCancel" xml:space="preserve">
+    <value>Отказаться от изменений</value>
+  </data>
+  <data name="TTCancelEn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="TTClient" xml:space="preserve">
+    <value>Файл для запуска\r\n\"client.exe\"</value>
+  </data>
+  <data name="TTClientEn" xml:space="preserve">
+    <value>The file for start\r\n\"client.exe\"</value>
+  </data>
+  <data name="TTDelete" xml:space="preserve">
+    <value>Удалить шард</value>
+  </data>
+  <data name="TTDeleteEn" xml:space="preserve">
+    <value>Delete shard</value>
+  </data>
+  <data name="TTEdit" xml:space="preserve">
+    <value>Редактировать шард</value>
+  </data>
+  <data name="TTEditEn" xml:space="preserve">
+    <value>Edit shard</value>
+  </data>
+  <data name="TTList" xml:space="preserve">
+    <value>Список шардов</value>
+  </data>
+  <data name="TTListEn" xml:space="preserve">
+    <value>List of shards</value>
+  </data>
+  <data name="TTName" xml:space="preserve">
+    <value>Название шарда\r\nот 3 до 7 букв или цифр</value>
+  </data>
+  <data name="TTNameEn" xml:space="preserve">
+    <value>Name of shard\r\nfrom 3 to 7 letters or digits</value>
+  </data>
+  <data name="TTOk" xml:space="preserve">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="TTOkEn" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="TTPort" xml:space="preserve">
+    <value>Порт шарда\r\nот 0 до 65536</value>
+  </data>
+  <data name="TTPortEn" xml:space="preserve">
+    <value>Port of shard\r\nfrom 0 to 65536</value>
+  </data>
+  <data name="TTStart" xml:space="preserve">
+    <value>Запустить игру</value>
+  </data>
+  <data name="TTStartEn" xml:space="preserve">
+    <value>Start game</value>
+  </data>
+  <data name="TTUrl" xml:space="preserve">
+    <value>Адрес шарда\r\nот 3 букв или цифр</value>
+  </data>
+  <data name="TTUrlEn" xml:space="preserve">
+    <value>Adress of shard\r\nfrom 3 letters or digits</value>
+  </data>
+</root>

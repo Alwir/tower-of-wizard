@@ -18,5 +18,159 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterFace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AirCraft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bombs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PartOfBuilding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InterFace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AirCraft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bombs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PartOfBuilding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helicopter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Mars!!!.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bomb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="aircraft.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="roof.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="fire.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="road.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="building2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rocket.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="helicopter.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="road1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="menu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="magic1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="magic2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="magic3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sound1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bomb.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="explosion.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="rocket.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>
