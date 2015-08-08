@@ -11,4 +11,5 @@ void Main(array<String^>^args) {
 	LFUO::LFUOForm form;
 
 	Application::Run(%form);
+
 }
