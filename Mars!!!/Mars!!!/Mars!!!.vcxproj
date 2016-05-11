@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -19,13 +19,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -56,6 +56,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>bass.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -67,16 +68,96 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>bass.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+      <PreventDllBinding>
+      </PreventDllBinding>
+      <LinkStatus>true</LinkStatus>
+      <SupportUnloadOfDelayLoadedDLL>
+      </SupportUnloadOfDelayLoadedDLL>
+      <SupportNobindOfDelayLoadedDLL>
+      </SupportNobindOfDelayLoadedDLL>
+      <ImportLibrary>
+      </ImportLibrary>
     </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AirCraft.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Bombs.cpp" />
+    <ClCompile Include="FlyingText.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Helicopter.cpp" />
+    <ClCompile Include="InterFace.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="PartOfBuilding.cpp" />
+    <ClCompile Include="Rocket.cpp" />
+    <ClCompile Include="Unit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirCraft.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="bass.h" />
+    <ClInclude Include="Bombs.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="FlyingText.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Helicopter.h" />
+    <ClInclude Include="InterFace.h" />
+    <ClInclude Include="MainWindow.h" />
+    <ClInclude Include="PartOfBuilding.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Rocket.h" />
+    <ClInclude Include="Unit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Mars!!!.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="aircraft.bmp" />
+    <Image Include="back.bmp" />
+    <Image Include="bomb.bmp" />
+    <Image Include="building.bmp" />
+    <Image Include="building1.bmp" />
+    <Image Include="building2.bmp" />
+    <Image Include="fire.bmp" />
+    <Image Include="helicopter.bmp" />
+    <Image Include="icon1.ico" />
+    <Image Include="magic1.bmp" />
+    <Image Include="magic2.bmp" />
+    <Image Include="magic3.bmp" />
+    <Image Include="menu.bmp" />
+    <Image Include="road.bmp" />
+    <Image Include="road1.bmp" />
+    <Image Include="rocket.bmp" />
+    <Image Include="roof.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sound1.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bomb.wav" />
+    <Media Include="explosion.wav" />
+    <Media Include="rocket.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
