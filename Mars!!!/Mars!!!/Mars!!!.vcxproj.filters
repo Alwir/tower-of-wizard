@@ -13,87 +13,117 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{52e5f8c5-5ee5-4e56-9437-d77bf363b470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sound">
+      <UniqueIdentifier>{868838cf-5610-43ab-bb7c-1fadb34d1266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects">
+      <UniqueIdentifier>{b9ea9d84-4e01-4639-8d18-8a69f2b78a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{77f8bc10-1623-4495-b3f9-e7b2f1ec4fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{d9c6175c-0672-44bf-a85a-3651abc9a4fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\effects">
+      <UniqueIdentifier>{7ca064ac-df5e-4ebb-a4f4-b8780f5dfe2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{3a9a32bc-1b78-44ce-8eaa-db2111c20534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\effects">
+      <UniqueIdentifier>{c3341320-58e7-4b2d-a30d-1f360e6c4d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{4762990a-5c0e-4d86-a816-aa692d3094df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects">
+      <UniqueIdentifier>{0beffbb9-9ed9-4199-aad9-e845981b20ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MainWindow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="InterFace.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Application.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Unit.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="AirCraft.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\objects</Filter>
     </ClCompile>
     <ClCompile Include="Bombs.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PartOfBuilding.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Rocket.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\objects</Filter>
     </ClCompile>
     <ClCompile Include="Helicopter.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PartOfBuilding.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="InterFace.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\game</Filter>
     </ClCompile>
     <ClCompile Include="FlyingText.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\effects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MainWindow.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="InterFace.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Application.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Unit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Constants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AirCraft.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Bombs.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PartOfBuilding.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Rocket.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Helicopter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="bass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AirCraft.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bombs.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Helicopter.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="InterFace.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
     <ClInclude Include="FlyingText.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="PartOfBuilding.h">
+      <Filter>Header Files\objects</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -102,56 +132,56 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="aircraft.bmp">
+      <Filter>Resource Files\images</Filter>
+    </Image>
     <Image Include="back.bmp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\images</Filter>
     </Image>
     <Image Include="bomb.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="aircraft.bmp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\images</Filter>
     </Image>
     <Image Include="building.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="roof.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="fire.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="road.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="icon1.ico">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\images</Filter>
     </Image>
     <Image Include="building1.bmp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\images</Filter>
     </Image>
     <Image Include="building2.bmp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\images</Filter>
     </Image>
-    <Image Include="rocket.bmp">
-      <Filter>Resource Files</Filter>
+    <Image Include="fire.bmp">
+      <Filter>Resource Files\images</Filter>
     </Image>
     <Image Include="helicopter.bmp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\images</Filter>
     </Image>
-    <Image Include="road1.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="menu.bmp">
-      <Filter>Resource Files</Filter>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files\images</Filter>
     </Image>
     <Image Include="magic1.bmp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\images</Filter>
     </Image>
     <Image Include="magic2.bmp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\images</Filter>
     </Image>
     <Image Include="magic3.bmp">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="menu.bmp">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="road.bmp">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="road1.bmp">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="rocket.bmp">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="roof.bmp">
+      <Filter>Resource Files\images</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -164,13 +194,13 @@
   </ItemGroup>
   <ItemGroup>
     <Media Include="bomb.wav">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\sound</Filter>
     </Media>
     <Media Include="explosion.wav">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\sound</Filter>
     </Media>
     <Media Include="rocket.wav">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\sound</Filter>
     </Media>
   </ItemGroup>
 </Project>
