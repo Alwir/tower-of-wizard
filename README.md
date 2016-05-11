@@ -1,4 +1,4 @@
- Tower of wizard
+ Tower of wizard C++
 =====================
  
 ------------
