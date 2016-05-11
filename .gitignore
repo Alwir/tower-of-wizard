@@ -154,3 +154,5 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+/Mars!!!/Mars!!!.VC.db
+/Mars!!!/Mars!!!.VC.VC.opendb
